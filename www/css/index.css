@@ -1,0 +1,34 @@
+*,*::before,*::after{margin:0px;padding:0px;box-sizing:border-box;outline:none;font-family:Calibri;}
+html{font-size:62.5%;}
+body{
+    font-size: 1.6rem;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    align-self: center;
+    padding: 0.5rem;
+    position: fixed;
+}
+
+#screen{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0.5rem;
+}
+.work-btn{
+    background-color: rgb(25, 197, 25);
+    color: white;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding: 1rem;
+    border: none;
+    margin: 1rem;
+}
