@@ -1,3 +1,4 @@
+// This server is just for development purpose.
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
